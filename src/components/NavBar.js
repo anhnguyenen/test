@@ -45,8 +45,12 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Thể loại</Nav.Link>
+              <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>Sử thi</Nav.Link>
+              <Nav.Link href="#truyenthuyet" className={activeLink === 'truyenthuyet' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('truyenthuyet')}>Truyền thuyết</Nav.Link>
+              <Nav.Link href="#ngungon" className={activeLink === 'ngungon' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('ngungon')}>Ngụ ngôn</Nav.Link>
+              <Nav.Link href="#cotich" className={activeLink === 'cotich' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('cotich')}>Cổ tích</Nav.Link>
+
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

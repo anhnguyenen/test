@@ -230,11 +230,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+
+
+
+
+
 /************ Banner Css ************/
+
+
+
+
+
+
+
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/background.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -418,6 +430,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .proj-imgbx::before {
   content: "";
@@ -457,6 +470,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+.butt-cs button {
+  color: white;
+  width: 100%;
+  top: 65%;
+
+}
+
+
 .background-image-right {
   top: 20%;
   position: absolute;
